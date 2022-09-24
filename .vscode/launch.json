@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "core",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn core start --no-open",
+      "autoAttachChildProcesses": false,
+      "postDebugTask": "destroy"
+    }
+  ]
+}
